@@ -1,0 +1,14 @@
+.navbar{
+  height: 70px;
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+/* media query */
+@media screen and (max-width: 467px) {
+.navmenu{
+ margin-right: -60px;
+}
+}

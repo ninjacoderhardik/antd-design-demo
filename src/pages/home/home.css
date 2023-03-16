@@ -1,0 +1,121 @@
+/* all display */
+.home {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: white;
+  position: relative;
+  display: flex;
+}
+/* left side */
+.hleft {
+  width: 50%;
+}
+.hright {
+  width: 50%;
+}
+/* paragraph */
+.hparagraph {
+  position: absolute;
+  width: 506px;
+  height: 105px;
+  left: 148px;
+  top: 228px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  margin: auto;
+}
+.hdparagraph {
+  position: absolute;
+  width: 497px;
+  height: 66px;
+  left: 148px;
+  top: 373px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #21243d;
+  margin: auto;
+}
+/* button css */
+.btnresume {
+  color: #ffffff;
+  background: #ff6464;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  width: 208px;
+  height: 47px;
+  margin-left: 148px;
+  margin-top: 477px;
+  border: none;
+}
+/* john image */
+.john {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  margin-left: 280px;
+  margin-top: 210px;
+  background: url(../../assets/mancircle.png);
+  z-index: 1;
+}
+/* circle side css */
+.hcircle {
+  position: absolute;
+width: 243px;
+height: 243px;
+margin-left: 275px;
+margin-top: 223px;
+border-radius: 50%;
+background: #EDF7FA;
+}
+
+/* media query */
+@media screen and (max-width: 1087px) {
+.hcircle{
+  margin-left: 200px;
+}
+.john{
+  margin-left:205px ;
+}
+.hparagraph {
+  margin: auto;
+}
+}
+@media screen and (max-width: 913px) {
+.hcircle{
+  margin-top:45px;
+  margin-left: -120px;
+}
+.john{
+  margin-top:30px;
+  margin-left: -115px;
+}
+.hparagraph{
+  margin-top: 60px;
+}
+.hdparagraph{
+  margin-top: 50px;
+}
+.btnresume{
+ margin-top: 523px;
+}
+}
+@media screen and (max-width: 913px) {
+  .hparagraph{
+    margin-left: -60px;
+    white-space: pre-wrap;
+     overflow-wrap: break-word;
+  }
+  .hdparagraph{
+    margin-left: -60px;
+  }
+}
